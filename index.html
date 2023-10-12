@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kleur Aanpassen</title>
+</head>
+<body>
+    <h1 id="mijnH1">Dit is een h1-element</h1>
+    <button onclick="kleur_aanpassen()">Verander Kleur</button>
+
+    <script>
+        function kleur_aanpassen() {
+            var h1Element = document.getElementById("mijnH1");
+            h1Element.style.color = "blue";
+            h1Element.textContent = "Inhoud aangepast!";
+        }
+    </script>
+</body>
+</html>
